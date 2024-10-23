@@ -19,7 +19,7 @@ Utiliza el operador || para combinar las condiciones. */
 
 
 let edad= prompt("Ingrese su edad por favor");
-if(edad > 18 || edad < 65)
+if(edad >= 18 && edad <= 65)
 {
     console.log("Puedes trabajar");
     
